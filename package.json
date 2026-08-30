@@ -1,0 +1,91 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "hashrate-no",
+  "title": "Hashrate",
+  "description": "Crypto mining resources via Hashrate.no",
+  "icon": "hashrate-no.png",
+  "author": "almatkai",
+  "categories": [
+    "Data",
+    "Finance"
+  ],
+  "license": "MIT",
+  "preferences": [
+    {
+      "name": "api_key",
+      "title": "API Key",
+      "type": "password",
+      "required": true,
+      "placeholder": "XXX...XX",
+      "description": "API Key from Hashrate.no"
+    }
+  ],
+  "commands": [
+    {
+      "name": "coins",
+      "title": "Coins",
+      "subtitle": "Hashrate",
+      "description": "Crypto Coins with Pricing and Estimates",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ]
+    },
+    {
+      "name": "gpu_estimates",
+      "title": "GPU Estimates",
+      "subtitle": "Hashrate",
+      "description": "GPU Estimates according to Power Cost ($/kWh)",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "power_cost",
+          "placeholder": "POWER_COST (0-1.00)",
+          "type": "text",
+          "required": true
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ]
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.104.1",
+    "@raycast/utils": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "id": "com.tezbar.hashrate-no",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "version": "0.1.0",
+  "tezbar": {
+    "schemaVersion": 1,
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "linuxStatus": "coming-soon",
+    "repository": "https://github.com/almatkai/hashrate-no",
+    "upstream": {
+      "repository": "https://github.com/raycast/extensions",
+      "path": "extensions/hashrate-no",
+      "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a"
+    }
+  }
+}
