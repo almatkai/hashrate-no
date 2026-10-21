@@ -3,7 +3,7 @@
   "name": "hashrate-no",
   "title": "Hashrate",
   "description": "Crypto mining resources via Hashrate.no",
-  "icon": "hashrate-no.png",
+  "icon": "assets/hashrate-no.png",
   "author": "almatkai",
   "categories": [
     "Data",
