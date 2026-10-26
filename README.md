@@ -31,3 +31,5 @@ This is a Raycast extension for [Hashrate.no](https://www.hashrate.no/).
 
     - `Coins` will be shown from the Cache (you can see the "last_updated" to know how old the cache is) but you can easily `Refresh` through the Action.
     - `GPU Estimates` will show from the Cache IF you enter the same "Power Cost" as sbefore
+
+Native Rust V2 source and verification: [v2/README.md](v2/README.md).

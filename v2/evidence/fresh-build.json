@@ -1,0 +1,19 @@
+{
+  "emptyCargoHome": true,
+  "emptyTarget": true,
+  "locked": true,
+  "sdkHTTPS": "https://github.com/almatkai/tezbar-extension-sdk-rust",
+  "sdkRev": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+  "binarySha256": "991f4e04831230d555e333b80f4312ac0ffc9f3c1abe5cfdd24efc9f5d38ed0c",
+  "binaryInfo": "Mach-O 64-bit executable arm64",
+  "protocolInfo": {
+    "protocol": 1,
+    "id": "com.tezbar.native.hashrate-no",
+    "version": "2.0.0",
+    "sdkVersion": "0.1.1",
+    "commands": [
+      "coins",
+      "gpu_estimates"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "production both commands real OS pipes",
+    "production no polling",
+    "hidden coin pane adapted to pinned renderer",
+    "production toggle details",
+    "production stale action inert",
+    "production cross session ID inert",
+    "production GPU zero source error",
+    "production missing preference sanitized",
+    "production unknown command error"
+  ],
+  "count": 9,
+  "productionBinary": "OS pipes; both commands; owned preloaded cache; macOS sandbox-exec deny network* enforced",
+  "networkBinary": "qa-process, explicit compile-only qa feature; actual SDK + reqwest; owned TLS",
+  "gui": "not-run"
+}

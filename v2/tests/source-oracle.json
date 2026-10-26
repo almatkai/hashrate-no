@@ -1,0 +1,1625 @@
+{
+  "epoch": 1767355200000,
+  "producer": "actual V1 TSX/useHashrate + locked @raycast/utils source map; closed VM; synthetic fixtures only",
+  "views": [
+    {
+      "command": "coins",
+      "input": [
+        {
+          "coin": "TEST",
+          "name": "Synthetic Coin",
+          "algo": "TestAlgo",
+          "usdPrice": "3.000",
+          "usdPrice1h": "4.000",
+          "usdPrice24h": "5.000",
+          "usdPrice7d": "6.000",
+          "usdPrice30d": "7.000",
+          "coinEstimate": "8.000",
+          "coinEstimateUnit": "9.000",
+          "coinEstimate1h": "10.000",
+          "coinEstimate24h": "11.000",
+          "coinEstimate7d": "12.000",
+          "coinEstimate30d": "13.000",
+          "coinEstimateAvg30d": "14.000",
+          "usdEstimate": "15.000",
+          "usdEstimate1h": "16.000",
+          "usdEstimate24h": "17.000",
+          "usdEstimate7d": "18.000",
+          "usdEstimate30d": "19.000",
+          "networkHashrate": "20.000",
+          "networkDifficulty": "21.000",
+          "emission": "22.000",
+          "emissionUSD": "23.000"
+        },
+        {
+          "coin": "OTHER",
+          "name": "Second Synthetic",
+          "algo": "AnotherAlgo",
+          "usdPrice": "0.0000000100"
+        }
+      ],
+      "detail": false,
+      "section": "2 coins | last_update: 1/2/2026",
+      "rows": [
+        {
+          "title": "TEST - Synthetic Coin",
+          "subtitle": "TestAlgo",
+          "accessories": [
+            {
+              "text": "$3.000"
+            }
+          ],
+          "metadata": [
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Name",
+              "text": "Synthetic Coin"
+            },
+            {
+              "title": "Algo",
+              "text": "TestAlgo"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "USD Price",
+              "text": "3.000"
+            },
+            {
+              "title": "USD Price 1h",
+              "text": "4.000"
+            },
+            {
+              "title": "USD Price 24h",
+              "text": "5.000"
+            },
+            {
+              "title": "USD Price 7d",
+              "text": "6.000"
+            },
+            {
+              "title": "USD Price 30d",
+              "text": "7.000"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Coin Estimate",
+              "text": "8.000"
+            },
+            {
+              "title": "Coin EstimateUnit",
+              "text": "9.000"
+            },
+            {
+              "title": "Coin Estimate1h",
+              "text": "10.000"
+            },
+            {
+              "title": "Coin Estimate24h",
+              "text": "11.000"
+            },
+            {
+              "title": "Coin Estimate7d",
+              "text": "12.000"
+            },
+            {
+              "title": "Coin Estimate30d",
+              "text": "13.000"
+            },
+            {
+              "title": "Coin EstimateAvg30d",
+              "text": "14.000"
+            },
+            {
+              "title": "USD Estimate",
+              "text": "15.000"
+            },
+            {
+              "title": "USD Estimate1h",
+              "text": "16.000"
+            },
+            {
+              "title": "USD Estimate24h",
+              "text": "17.000"
+            },
+            {
+              "title": "USD Estimate7d",
+              "text": "18.000"
+            },
+            {
+              "title": "USD Estimate30d",
+              "text": "19.000"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Network Hashrate",
+              "text": "20.000"
+            },
+            {
+              "title": "Network Difficulty",
+              "text": "21.000"
+            },
+            {
+              "title": "Emission",
+              "text": "22.000"
+            },
+            {
+              "title": "EmissionUSD",
+              "text": "23.000"
+            }
+          ]
+        },
+        {
+          "title": "OTHER - Second Synthetic",
+          "subtitle": "AnotherAlgo",
+          "accessories": [
+            {
+              "text": "$0.0000000100"
+            }
+          ],
+          "metadata": [
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Name",
+              "text": "Second Synthetic"
+            },
+            {
+              "title": "Algo",
+              "text": "AnotherAlgo"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "USD Price",
+              "text": "0.0000000100"
+            },
+            {
+              "title": "USD Price 1h",
+              "text": null
+            },
+            {
+              "title": "USD Price 24h",
+              "text": null
+            },
+            {
+              "title": "USD Price 7d",
+              "text": null
+            },
+            {
+              "title": "USD Price 30d",
+              "text": null
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Coin Estimate",
+              "text": null
+            },
+            {
+              "title": "Coin EstimateUnit",
+              "text": null
+            },
+            {
+              "title": "Coin Estimate1h",
+              "text": null
+            },
+            {
+              "title": "Coin Estimate24h",
+              "text": null
+            },
+            {
+              "title": "Coin Estimate7d",
+              "text": null
+            },
+            {
+              "title": "Coin Estimate30d",
+              "text": null
+            },
+            {
+              "title": "Coin EstimateAvg30d",
+              "text": null
+            },
+            {
+              "title": "USD Estimate",
+              "text": null
+            },
+            {
+              "title": "USD Estimate1h",
+              "text": null
+            },
+            {
+              "title": "USD Estimate24h",
+              "text": null
+            },
+            {
+              "title": "USD Estimate7d",
+              "text": null
+            },
+            {
+              "title": "USD Estimate30d",
+              "text": null
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Network Hashrate",
+              "text": null
+            },
+            {
+              "title": "Network Difficulty",
+              "text": null
+            },
+            {
+              "title": "Emission",
+              "text": null
+            },
+            {
+              "title": "EmissionUSD",
+              "text": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "command": "coins",
+      "input": [
+        {
+          "coin": "TEST",
+          "name": "Synthetic Coin",
+          "algo": "TestAlgo",
+          "usdPrice": "3.000",
+          "usdPrice1h": "4.000",
+          "usdPrice24h": "5.000",
+          "usdPrice7d": "6.000",
+          "usdPrice30d": "7.000",
+          "coinEstimate": "8.000",
+          "coinEstimateUnit": "9.000",
+          "coinEstimate1h": "10.000",
+          "coinEstimate24h": "11.000",
+          "coinEstimate7d": "12.000",
+          "coinEstimate30d": "13.000",
+          "coinEstimateAvg30d": "14.000",
+          "usdEstimate": "15.000",
+          "usdEstimate1h": "16.000",
+          "usdEstimate24h": "17.000",
+          "usdEstimate7d": "18.000",
+          "usdEstimate30d": "19.000",
+          "networkHashrate": "20.000",
+          "networkDifficulty": "21.000",
+          "emission": "22.000",
+          "emissionUSD": "23.000"
+        },
+        {
+          "coin": "OTHER",
+          "name": "Second Synthetic",
+          "algo": "AnotherAlgo",
+          "usdPrice": "0.0000000100"
+        }
+      ],
+      "detail": true,
+      "section": "2 coins | last_update: 1/2/2026",
+      "rows": [
+        {
+          "title": "TEST",
+          "subtitle": "TestAlgo",
+          "accessories": [
+            {
+              "text": "$3.000"
+            }
+          ],
+          "metadata": [
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Name",
+              "text": "Synthetic Coin"
+            },
+            {
+              "title": "Algo",
+              "text": "TestAlgo"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "USD Price",
+              "text": "3.000"
+            },
+            {
+              "title": "USD Price 1h",
+              "text": "4.000"
+            },
+            {
+              "title": "USD Price 24h",
+              "text": "5.000"
+            },
+            {
+              "title": "USD Price 7d",
+              "text": "6.000"
+            },
+            {
+              "title": "USD Price 30d",
+              "text": "7.000"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Coin Estimate",
+              "text": "8.000"
+            },
+            {
+              "title": "Coin EstimateUnit",
+              "text": "9.000"
+            },
+            {
+              "title": "Coin Estimate1h",
+              "text": "10.000"
+            },
+            {
+              "title": "Coin Estimate24h",
+              "text": "11.000"
+            },
+            {
+              "title": "Coin Estimate7d",
+              "text": "12.000"
+            },
+            {
+              "title": "Coin Estimate30d",
+              "text": "13.000"
+            },
+            {
+              "title": "Coin EstimateAvg30d",
+              "text": "14.000"
+            },
+            {
+              "title": "USD Estimate",
+              "text": "15.000"
+            },
+            {
+              "title": "USD Estimate1h",
+              "text": "16.000"
+            },
+            {
+              "title": "USD Estimate24h",
+              "text": "17.000"
+            },
+            {
+              "title": "USD Estimate7d",
+              "text": "18.000"
+            },
+            {
+              "title": "USD Estimate30d",
+              "text": "19.000"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Network Hashrate",
+              "text": "20.000"
+            },
+            {
+              "title": "Network Difficulty",
+              "text": "21.000"
+            },
+            {
+              "title": "Emission",
+              "text": "22.000"
+            },
+            {
+              "title": "EmissionUSD",
+              "text": "23.000"
+            }
+          ]
+        },
+        {
+          "title": "OTHER",
+          "subtitle": "AnotherAlgo",
+          "accessories": [
+            {
+              "text": "$0.0000000100"
+            }
+          ],
+          "metadata": [
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Name",
+              "text": "Second Synthetic"
+            },
+            {
+              "title": "Algo",
+              "text": "AnotherAlgo"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "USD Price",
+              "text": "0.0000000100"
+            },
+            {
+              "title": "USD Price 1h",
+              "text": null
+            },
+            {
+              "title": "USD Price 24h",
+              "text": null
+            },
+            {
+              "title": "USD Price 7d",
+              "text": null
+            },
+            {
+              "title": "USD Price 30d",
+              "text": null
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Coin Estimate",
+              "text": null
+            },
+            {
+              "title": "Coin EstimateUnit",
+              "text": null
+            },
+            {
+              "title": "Coin Estimate1h",
+              "text": null
+            },
+            {
+              "title": "Coin Estimate24h",
+              "text": null
+            },
+            {
+              "title": "Coin Estimate7d",
+              "text": null
+            },
+            {
+              "title": "Coin Estimate30d",
+              "text": null
+            },
+            {
+              "title": "Coin EstimateAvg30d",
+              "text": null
+            },
+            {
+              "title": "USD Estimate",
+              "text": null
+            },
+            {
+              "title": "USD Estimate1h",
+              "text": null
+            },
+            {
+              "title": "USD Estimate24h",
+              "text": null
+            },
+            {
+              "title": "USD Estimate7d",
+              "text": null
+            },
+            {
+              "title": "USD Estimate30d",
+              "text": null
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Network Hashrate",
+              "text": null
+            },
+            {
+              "title": "Network Difficulty",
+              "text": null
+            },
+            {
+              "title": "Emission",
+              "text": null
+            },
+            {
+              "title": "EmissionUSD",
+              "text": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "command": "gpu_estimates",
+      "input": {
+        "2": {
+          "device": {
+            "name": "GPU 2",
+            "brand": "Test"
+          },
+          "profit": {
+            "coin": "TEST",
+            "revenueUSD": 1.005,
+            "profitUSD": -0.004
+          },
+          "revenue": {
+            "coin": "OTHER",
+            "revenueUSD": 1234.567,
+            "profitUSD": 2.675
+          },
+          "profit24": {
+            "coin": "TEST",
+            "revenueUSD24": 1e+21,
+            "profitUSD24": 0
+          },
+          "revenue24": {
+            "coin": "OTHER",
+            "revenueUSD24": 0.005,
+            "profitUSD24": 0.004
+          }
+        },
+        "10": {
+          "device": {
+            "name": "GPU 10",
+            "brand": "Test"
+          },
+          "profit": {
+            "coin": "TEST",
+            "revenueUSD": 1.005,
+            "profitUSD": -0.004
+          },
+          "revenue": {
+            "coin": "OTHER",
+            "revenueUSD": 1234.567,
+            "profitUSD": 2.675
+          },
+          "profit24": {
+            "coin": "TEST",
+            "revenueUSD24": 1e+21,
+            "profitUSD24": 0
+          },
+          "revenue24": {
+            "coin": "OTHER",
+            "revenueUSD24": 0.005,
+            "profitUSD24": 0.004
+          }
+        },
+        "z": {
+          "device": {
+            "name": "Synthetic GPU",
+            "brand": "Owned Test Brand"
+          },
+          "profit": {
+            "coin": "TEST",
+            "revenueUSD": 1.005,
+            "profitUSD": -0.004
+          },
+          "revenue": {
+            "coin": "OTHER",
+            "revenueUSD": 1234.567,
+            "profitUSD": 2.675
+          },
+          "profit24": {
+            "coin": "TEST",
+            "revenueUSD24": 1e+21,
+            "profitUSD24": 0
+          },
+          "revenue24": {
+            "coin": "OTHER",
+            "revenueUSD24": 0.005,
+            "profitUSD24": 0.004
+          }
+        }
+      },
+      "detail": true,
+      "section": "3 estimates | cost: .5 | last_update: 1/2/2026",
+      "rows": [
+        {
+          "title": "GPU 2",
+          "subtitle": "Test",
+          "accessories": [],
+          "metadata": [
+            {
+              "title": "Highest Profit",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1.01"
+            },
+            {
+              "title": "Profit",
+              "text": "-$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,234.57"
+            },
+            {
+              "title": "Profit",
+              "text": "$2.68"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Profit 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,000,000,000,000,000,000,000.00"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$0.01"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            }
+          ]
+        },
+        {
+          "title": "GPU 10",
+          "subtitle": "Test",
+          "accessories": [],
+          "metadata": [
+            {
+              "title": "Highest Profit",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1.01"
+            },
+            {
+              "title": "Profit",
+              "text": "-$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,234.57"
+            },
+            {
+              "title": "Profit",
+              "text": "$2.68"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Profit 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,000,000,000,000,000,000,000.00"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$0.01"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            }
+          ]
+        },
+        {
+          "title": "Synthetic GPU",
+          "subtitle": "Owned Test Brand",
+          "accessories": [],
+          "metadata": [
+            {
+              "title": "Highest Profit",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1.01"
+            },
+            {
+              "title": "Profit",
+              "text": "-$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,234.57"
+            },
+            {
+              "title": "Profit",
+              "text": "$2.68"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Profit 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,000,000,000,000,000,000,000.00"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$0.01"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "command": "gpu_estimates",
+      "input": {
+        "2": {
+          "device": {
+            "name": "GPU 2",
+            "brand": "Test"
+          },
+          "profit": {
+            "coin": "TEST",
+            "revenueUSD": 1.005,
+            "profitUSD": -0.004
+          },
+          "revenue": {
+            "coin": "OTHER",
+            "revenueUSD": 1234.567,
+            "profitUSD": 2.675
+          },
+          "profit24": {
+            "coin": "TEST",
+            "revenueUSD24": 1e+21,
+            "profitUSD24": 0
+          },
+          "revenue24": {
+            "coin": "OTHER",
+            "revenueUSD24": 0.005,
+            "profitUSD24": 0.004
+          }
+        },
+        "10": {
+          "device": {
+            "name": "GPU 10",
+            "brand": "Test"
+          },
+          "profit": {
+            "coin": "TEST",
+            "revenueUSD": 1.005,
+            "profitUSD": -0.004
+          },
+          "revenue": {
+            "coin": "OTHER",
+            "revenueUSD": 1234.567,
+            "profitUSD": 2.675
+          },
+          "profit24": {
+            "coin": "TEST",
+            "revenueUSD24": 1e+21,
+            "profitUSD24": 0
+          },
+          "revenue24": {
+            "coin": "OTHER",
+            "revenueUSD24": 0.005,
+            "profitUSD24": 0.004
+          }
+        },
+        "z": {
+          "device": {
+            "name": "Synthetic GPU",
+            "brand": "Owned Test Brand"
+          },
+          "profit": {
+            "coin": "TEST",
+            "revenueUSD": 1.005,
+            "profitUSD": -0.004
+          },
+          "revenue": {
+            "coin": "OTHER",
+            "revenueUSD": 1234.567,
+            "profitUSD": 2.675
+          },
+          "profit24": {
+            "coin": "TEST",
+            "revenueUSD24": 1e+21,
+            "profitUSD24": 0
+          },
+          "revenue24": {
+            "coin": "OTHER",
+            "revenueUSD24": 0.005,
+            "profitUSD24": 0.004
+          }
+        }
+      },
+      "detail": false,
+      "section": "3 estimates | cost: .5 | last_update: 1/2/2026",
+      "rows": [
+        {
+          "title": "GPU 2",
+          "subtitle": "Test",
+          "accessories": [],
+          "metadata": [
+            {
+              "title": "Highest Profit",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1.01"
+            },
+            {
+              "title": "Profit",
+              "text": "-$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,234.57"
+            },
+            {
+              "title": "Profit",
+              "text": "$2.68"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Profit 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,000,000,000,000,000,000,000.00"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$0.01"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            }
+          ]
+        },
+        {
+          "title": "GPU 10",
+          "subtitle": "Test",
+          "accessories": [],
+          "metadata": [
+            {
+              "title": "Highest Profit",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1.01"
+            },
+            {
+              "title": "Profit",
+              "text": "-$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,234.57"
+            },
+            {
+              "title": "Profit",
+              "text": "$2.68"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Profit 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,000,000,000,000,000,000,000.00"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$0.01"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            }
+          ]
+        },
+        {
+          "title": "Synthetic GPU",
+          "subtitle": "Owned Test Brand",
+          "accessories": [],
+          "metadata": [
+            {
+              "title": "Highest Profit",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1.01"
+            },
+            {
+              "title": "Profit",
+              "text": "-$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,234.57"
+            },
+            {
+              "title": "Profit",
+              "text": "$2.68"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Profit 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "TEST"
+            },
+            {
+              "title": "Revenue",
+              "text": "$1,000,000,000,000,000,000,000.00"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            },
+            {
+              "separator": true
+            },
+            {
+              "title": "Highest Revenue 24H",
+              "text": null
+            },
+            {
+              "title": "Coin",
+              "text": "OTHER"
+            },
+            {
+              "title": "Revenue",
+              "text": "$0.01"
+            },
+            {
+              "title": "Profit",
+              "text": "$0.00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numeric": [
+    {
+      "input": "",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "0",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "-0",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "0.0",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "  ",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "0x0",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "NaN",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "abc",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "inf",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "+0x1",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "1_0",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "0.5",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "1",
+      "error": null
+    },
+    {
+      "input": " .5 ",
+      "error": null
+    },
+    {
+      "input": "+0.5",
+      "error": null
+    },
+    {
+      "input": "1e-2",
+      "error": null
+    },
+    {
+      "input": "0x1",
+      "error": null
+    },
+    {
+      "input": "0b1",
+      "error": null
+    },
+    {
+      "input": "0o1",
+      "error": null
+    },
+    {
+      "input": "﻿.25",
+      "error": null
+    },
+    {
+      "input": "5e-324",
+      "error": null
+    },
+    {
+      "input": "Infinity",
+      "error": "Power Cost must be between 0 and 1.00!"
+    },
+    {
+      "input": "-Infinity",
+      "error": "Power Cost must be between 0 and 1.00!"
+    },
+    {
+      "input": "1.01",
+      "error": "Power Cost must be between 0 and 1.00!"
+    },
+    {
+      "input": "-0.1",
+      "error": "Power Cost must be between 0 and 1.00!"
+    },
+    {
+      "input": "1e309",
+      "error": "Power Cost must be between 0 and 1.00!"
+    },
+    {
+      "input": "5e-325",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "0X1",
+      "error": null
+    },
+    {
+      "input": "0B1",
+      "error": null
+    },
+    {
+      "input": "0O1",
+      "error": null
+    },
+    {
+      "input": "0.",
+      "error": "Power Cost must be a number!"
+    },
+    {
+      "input": "1.",
+      "error": null
+    },
+    {
+      "input": "+.5",
+      "error": null
+    },
+    {
+      "input": "+1e-1",
+      "error": null
+    },
+    {
+      "input": " 0.5 ",
+      "error": null
+    }
+  ],
+  "currency": [
+    {
+      "input": null,
+      "expected": "$0.00"
+    },
+    {
+      "input": true,
+      "expected": "$1.00"
+    },
+    {
+      "input": false,
+      "expected": "$0.00"
+    },
+    {
+      "input": "-0",
+      "expected": "-$0.00"
+    },
+    {
+      "input": "1.005",
+      "expected": "$1.01"
+    },
+    {
+      "input": "-1.005",
+      "expected": "-$1.01"
+    },
+    {
+      "input": " 2.675 ",
+      "expected": "$2.68"
+    },
+    {
+      "input": "0.0049",
+      "expected": "$0.00"
+    },
+    {
+      "input": "0.0051",
+      "expected": "$0.01"
+    },
+    {
+      "input": 9.995,
+      "expected": "$10.00"
+    },
+    {
+      "input": 99.995,
+      "expected": "$100.00"
+    },
+    {
+      "input": -1.005,
+      "expected": "-$1.01"
+    },
+    {
+      "input": -2.675,
+      "expected": "-$2.68"
+    },
+    {
+      "input": -99.995,
+      "expected": "-$100.00"
+    },
+    {
+      "input": 0.0005,
+      "expected": "$0.00"
+    },
+    {
+      "input": 0.00005,
+      "expected": "$0.00"
+    },
+    {
+      "input": 0.000001,
+      "expected": "$0.00"
+    },
+    {
+      "input": 0.00001,
+      "expected": "$0.00"
+    },
+    {
+      "input": 0.0001,
+      "expected": "$0.00"
+    },
+    {
+      "input": 1e+22,
+      "expected": "$10,000,000,000,000,000,000,000.00"
+    },
+    {
+      "input": 0.01,
+      "expected": "$0.01"
+    },
+    {
+      "input": 0.001,
+      "expected": "$0.00"
+    },
+    {
+      "input": 1e-10,
+      "expected": "$0.00"
+    },
+    {
+      "input": "1e309",
+      "expected": "$∞"
+    },
+    {
+      "input": "-1e309",
+      "expected": "-$∞"
+    },
+    {
+      "input": "abc",
+      "expected": "$NaN"
+    },
+    {
+      "input": [],
+      "expected": "$0.00"
+    },
+    {
+      "input": "1.005",
+      "expected": "$1.01"
+    },
+    {
+      "input": "NaN",
+      "expected": "$NaN"
+    },
+    {
+      "input": "Infinity",
+      "expected": "$∞"
+    },
+    {
+      "input": "-Infinity",
+      "expected": "-$∞"
+    },
+    {
+      "input": "",
+      "expected": "$0.00"
+    },
+    {
+      "input": 0,
+      "expected": "$0.00"
+    },
+    {
+      "input": 0,
+      "expected": "$0.00"
+    },
+    {
+      "input": 1.005,
+      "expected": "$1.01"
+    },
+    {
+      "input": 2.675,
+      "expected": "$2.68"
+    },
+    {
+      "input": -0.004,
+      "expected": "-$0.00"
+    },
+    {
+      "input": 1234.567,
+      "expected": "$1,234.57"
+    },
+    {
+      "input": 0.005,
+      "expected": "$0.01"
+    },
+    {
+      "input": 0.004,
+      "expected": "$0.00"
+    },
+    {
+      "input": 1e-7,
+      "expected": "$0.00"
+    },
+    {
+      "input": 1e+21,
+      "expected": "$1,000,000,000,000,000,000,000.00"
+    },
+    {
+      "input": 1e+23,
+      "expected": "$100,000,000,000,000,000,000,000.00"
+    },
+    {
+      "input": 1e+100,
+      "expected": "$10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000.00"
+    },
+    {
+      "input": 1.7976931348623157e+308,
+      "expected": "$179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000.00"
+    },
+    {
+      "input": 5e-324,
+      "expected": "$0.00"
+    },
+    {
+      "input": -99.995,
+      "expected": "-$100.00"
+    },
+    {
+      "expected": "$NaN"
+    }
+  ],
+  "lifecycle": [
+    {
+      "command": "coins",
+      "firstLaunch": 1,
+      "toggleExtra": 0,
+      "manualRefreshExtra": 1,
+      "secondLaunchExtra": 0,
+      "thirdLaunchExtra": 0,
+      "request": {
+        "url": "https://api.hashrate.no/v1/coins?apiKey=ORACLE-SYNTHETIC-KEY",
+        "method": "GET"
+      }
+    },
+    {
+      "command": "gpu_estimates",
+      "firstLaunch": 1,
+      "toggleExtra": 0,
+      "manualRefreshExtra": 1,
+      "secondLaunchExtra": 1,
+      "thirdLaunchExtra": 0,
+      "request": {
+        "url": "https://api.hashrate.no/v1/gpuEstimates?apiKey=ORACLE-SYNTHETIC-KEY&powerCost=.5",
+        "method": "GET"
+      }
+    }
+  ],
+  "mime": [
+    {
+      "input": "application/json",
+      "expected": true
+    },
+    {
+      "input": "text/json",
+      "expected": true
+    },
+    {
+      "input": "application/problem+json; charset=utf-8",
+      "expected": true
+    },
+    {
+      "input": "APPLICATION/JSON",
+      "expected": true
+    },
+    {
+      "input": "application/vnd.json",
+      "expected": true
+    },
+    {
+      "input": "application/json-stream",
+      "expected": true
+    },
+    {
+      "input": "application/json_stream",
+      "expected": false
+    },
+    {
+      "input": "application/notjson",
+      "expected": false
+    },
+    {
+      "input": "invalid",
+      "expected": false
+    },
+    {
+      "input": "application/json extra",
+      "expected": false
+    },
+    {
+      "input": "application/json+zip",
+      "expected": true
+    },
+    {
+      "input": "application/zip+json-stream",
+      "expected": true
+    },
+    {
+      "input": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/json",
+      "expected": false
+    },
+    {
+      "input": "",
+      "expected": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "commit": "ea100cee3f69711de12485ba061950c5fc65258f",
+  "checks": 16,
+  "producers": "Actual list-runtime.tsx + detail-runtime.tsx; UI/color/DOM/IO producers stubbed; no actual GUI",
+  "patchRequired": false,
+  "search": "A/B/A before debounce; late root reconciliation preserves draft; local filter and action selection tested"
+}

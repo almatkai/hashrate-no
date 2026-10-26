@@ -1,0 +1,20 @@
+Hashrate native V2
+
+Rust port of the Hashrate extension in https://github.com/almatkai/hashrate-no,
+source commit 48f081909c2b07ab791af1949ad38325c0d1fe6c (both commands).
+Original Raycast extension: extensions/hashrate-no in
+https://github.com/raycast/extensions at 6734d85992290066fd31a7f5bee3cca3d3545a1a.
+The icon is the exact original assets/hashrate-no.png from that revision.
+
+The repository's original LICENSE bytes are retained as LICENSE. The upstream
+Raycast MIT grant is included in resources/licenses/raycast-extensions-MIT.txt.
+The Rust SDK 0.1.1 is pinned to HTTPS git revision
+ e955911f0bf5b558f9d3eb5183df0adc95c22af2
+in https://github.com/almatkai/tezbar-extension-sdk-rust (Apache-2.0).
+
+resources/locked-dependencies.json identifies all Cargo.lock dependencies and
+links to copied, authentic license/notice/AUTHORS files. Registry crate archive
+SHA-256 values match Cargo.lock; copied license bytes match the archives.
+No grant text or third-party copyright attribution has been invented.
+Hashrate.no is the original read-only API service; this package contains no
+service data, mining recommendations, account writes, trading or payment logic.

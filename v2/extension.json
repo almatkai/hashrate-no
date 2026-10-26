@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 3,
+  "id": "com.tezbar.native.hashrate-no",
+  "slug": "hashrate-no",
+  "name": "Hashrate",
+  "version": "2.0.0",
+  "description": "Crypto mining resources via Hashrate.no",
+  "icon": "resources/hashrate-no.png",
+  "runtime": "rust",
+  "execution": "process",
+  "protocolVersion": 1,
+  "repository": "https://github.com/almatkai/hashrate-no",
+  "author": "almatkai",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "commands": [
+    {
+      "name": "coins",
+      "title": "Coins",
+      "subtitle": "Hashrate",
+      "description": "Crypto Coins with Pricing and Estimates",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "timeoutMs": 30000,
+      "refreshMs": null,
+      "concurrency": "serialize"
+    },
+    {
+      "name": "gpu_estimates",
+      "title": "GPU Estimates",
+      "subtitle": "Hashrate",
+      "description": "GPU Estimates according to Power Cost ($/kWh)",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "power_cost",
+          "placeholder": "POWER_COST (0-1.00)",
+          "type": "text",
+          "required": true
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "timeoutMs": 30000,
+      "refreshMs": null,
+      "concurrency": "serialize"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "api_key",
+      "title": "API Key",
+      "type": "password",
+      "required": true,
+      "placeholder": "XXX...XX",
+      "description": "API Key from Hashrate.no"
+    }
+  ],
+  "replaces": [
+    "com.tezbar.hashrate-no",
+    "raycast.hashrate-no"
+  ],
+  "capabilities": [],
+  "artifacts": {},
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Real Tezbar GUI/platform acceptance has not been run."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "Real Tezbar GUI/platform acceptance has not been run."
+    }
+  ]
+}
