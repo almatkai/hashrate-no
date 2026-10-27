@@ -1,0 +1,6 @@
+{
+  "schemaCommit": "ea100cee3f69711de12485ba061950c5fc65258f",
+  "positive": 2,
+  "negative": 27,
+  "validator": "AJV 8.17.1 draft2020 + ajv-formats 3.0.1"
+}

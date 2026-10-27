@@ -1,0 +1,13 @@
+{
+  "target": "x86_64-pc-windows-gnu",
+  "checkExit": 101,
+  "clippyExit": 101,
+  "status": "blocked",
+  "reason": "Existing GNU Rust target present; MinGW x86_64-w64-mingw32-gcc missing. No toolchain/compiler installed.",
+  "logs": {
+    "windows-check.log": "e6497615068c0701ccb289229f6a25c81ade601f59001cfb256a8eac5542ad6c",
+    "windows-clippy.log": "d72051ffb2224f44ef4adc1100a44d2dfcd1cad6d115692010cd52f35428f986"
+  },
+  "msvc": "not-run",
+  "gui": "not-run"
+}

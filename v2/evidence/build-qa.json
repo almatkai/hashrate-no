@@ -1,0 +1,18 @@
+{
+  "v1Tests": 1,
+  "v1Typecheck": "passed",
+  "rustTestsPerToolchain": 7,
+  "toolchains": {
+    "stable": "rustc 1.98.0 (88d9e12ae 2026-08-18)",
+    "1.85.0": "rustc 1.85.0 (4d91de4e4 2025-02-17)"
+  },
+  "strictClippy": "all-targets all-features -D warnings",
+  "logs": {
+    "v1-test.log": "4694dacbb7369f570878f4074b38bca6b41f4fd2ff2624b3dc6872738b05bbfe",
+    "v1-typecheck.log": "430010593257c437526eb8bd942d8e758ca5f7e457d5b5793903c955e93e66c9",
+    "stable-test.log": "e06a7ed9062831f20293eecd1358cec0d686c2e30c3f294c25d19c809c825822",
+    "stable-clippy.log": "c92508a29848820f033cd2ea015c85dde0953c88b07cc967ce34b7c08f610549",
+    "1.85.0-test.log": "6ca26809375998e7ef0f5c463f69351461b68ed7f6f8747b17f98857a8f5ec82",
+    "1.85.0-clippy.log": "a5f4c585ee974ca44916ac30a98bbc189e067a7e0a6bc6d2e8d6bc525be724af"
+  }
+}

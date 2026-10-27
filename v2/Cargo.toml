@@ -1,0 +1,37 @@
+[package]
+name = "hashrate-no-native"
+version = "2.0.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+publish = false
+
+[dependencies]
+tezbar-extension-sdk = { git = "https://github.com/almatkai/tezbar-extension-sdk-rust", rev = "e955911f0bf5b558f9d3eb5183df0adc95c22af2" }
+serde_json = { version = "=1.0.145", features = ["preserve_order"] }
+reqwest = { version = "=0.12.24", default-features = false, features = ["rustls-tls-webpki-roots", "stream"] }
+tokio = { version = "=1.48.0", features = ["rt-multi-thread", "macros", "io-util", "io-std", "sync", "time", "fs", "net"] }
+sha2 = "=0.10.9"
+chrono = { version = "=0.4.42", default-features = false, features = ["clock", "std"] }
+ryu-js = "=1.0.2"
+tempfile = "=3.23.0"
+# Bound transitive versions to the declared MSRV (including the SDK's deps).
+url = "=2.5.4"
+indexmap = "=2.11.4"
+idna = "=1.0.3"
+idna_adapter = "=1.2.0"
+
+[[bin]]
+name = "hashrate-no"
+path = "src/main.rs"
+
+[dev-dependencies]
+# TLS tests use an owned local certificate, never the system trust store.
+
+[features]
+qa = []
+
+[[bin]]
+name = "qa-process"
+path = "qa/driver.rs"
+required-features = ["qa"]

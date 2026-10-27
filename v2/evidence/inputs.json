@@ -1,0 +1,287 @@
+[
+  {
+    "kind": "sdk",
+    "commit": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "path": "SDK_API.md",
+    "sha256": "73945c65d763a82ee1bd64b2f30418f8aaec2e75966d71d7b774e7f7e40f098e",
+    "bytes": 11574
+  },
+  {
+    "kind": "sdk",
+    "commit": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "path": "PROTOCOL.md",
+    "sha256": "0bc474c2e79e6e3f46ad2d577f83144ad69bd87cb17b74600a17178bcc257371",
+    "bytes": 11421
+  },
+  {
+    "kind": "sdk",
+    "commit": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "path": "HOST_INTEGRATION.md",
+    "sha256": "88e6ca0c1090bcdf5d5501583e52e3eb7b0a369f4fea17ce4b01616c2f69d9a8",
+    "bytes": 11829
+  },
+  {
+    "kind": "sdk",
+    "commit": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "path": "src/runner.rs",
+    "sha256": "975350f717db0a3bf9cac11e9efd733719d2148544c2e38d82758c92a0a88053",
+    "bytes": 30927
+  },
+  {
+    "kind": "sdk",
+    "commit": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "path": "src/context.rs",
+    "sha256": "9d8498bf3799690703c0a4e70fed2c9356850cc0c4e35370104fd09898c09efa",
+    "bytes": 15670
+  },
+  {
+    "kind": "sdk",
+    "commit": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "path": "src/lib.rs",
+    "sha256": "7ffb2da74cfcf91f428453cf90594baa79b21251b7df77756348e0acda79cd16",
+    "bytes": 1849
+  },
+  {
+    "kind": "sdk",
+    "commit": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "path": "LICENSE",
+    "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+    "bytes": 10750
+  },
+  {
+    "kind": "sdk",
+    "commit": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "path": "NOTICE",
+    "sha256": "aa04ab6115cfc2e2172b0613013611a59dc487c70f3e2dfbd2f135326d703c74",
+    "bytes": 235
+  },
+  {
+    "kind": "sdk",
+    "commit": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "path": "Cargo.toml",
+    "sha256": "f3f6c5a49f92dced2ff7b8ea9c5942d826a8a6c3cdade67f62003ded86b506dd",
+    "bytes": 468
+  },
+  {
+    "kind": "host",
+    "commit": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "path": "docs/EXTERNAL_RUST_EXTENSIONS.md",
+    "sha256": "56da4ce632e1362ad56c380fa6d706a1f455ea44b67cd473b0b3eb216a9d5610",
+    "bytes": 7903
+  },
+  {
+    "kind": "host",
+    "commit": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "path": "schemas/extension-v3.schema.json",
+    "sha256": "6f42f0316aa88097703496e828b11afcc7caecf8477fa7502df903c3ad2a8048",
+    "bytes": 13094
+  },
+  {
+    "kind": "host",
+    "commit": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "path": "src/renderer/ExtensionRuntimeView.tsx",
+    "sha256": "c8378d1a1cc91cf622f81dc1bd88ed986ea2e9c396f7ff497e649171f573c5e8",
+    "bytes": 24466
+  },
+  {
+    "kind": "host",
+    "commit": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "path": "src/shared/extensionRuntime.ts",
+    "sha256": "47a290032a9967e2dee5142030b4ef8cfc5237a79521aa535f8a12d8c16deda4",
+    "bytes": 4581
+  },
+  {
+    "kind": "host",
+    "commit": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "path": "src/renderer/src/raycast-api/list-runtime.tsx",
+    "sha256": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f",
+    "bytes": 32174
+  },
+  {
+    "kind": "host",
+    "commit": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "path": "src/renderer/src/raycast-api/detail-runtime.tsx",
+    "sha256": "32eecb50891e0f282bd3d78d8a38193ec24540bf70c3fdc8e43a1d368c97d54c",
+    "bytes": 23478
+  },
+  {
+    "kind": "host",
+    "commit": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "path": "src/renderer/src/raycast-api/index.tsx",
+    "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64",
+    "bytes": 7419
+  },
+  {
+    "kind": "host",
+    "commit": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "path": "src-tauri/src/native_core/extensions/process_host.rs",
+    "sha256": "daf45815d76762323c6c1320c88ed24dfe28160a60bb4974b8073e3f17a3b982",
+    "bytes": 38535
+  },
+  {
+    "kind": "host",
+    "commit": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "path": "src-tauri/src/native_core/extensions/registry.rs",
+    "sha256": "05dd5d9c5fafbac3034e9ba5e101e345a5d3bb658a49d22696e59ea924530e66",
+    "bytes": 67269
+  },
+  {
+    "kind": "host",
+    "commit": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "path": "src-tauri/src/native_core/extensions/loved_extensions.json",
+    "sha256": "f30e521b2c1b196301d81502478732d506a50ed975a54f179ed077a687ca5537",
+    "bytes": 93772
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": ".eslintrc.json",
+    "sha256": "739c28ed0495cec767903956a808561ca22d332ecb214ce609d63a82b678d516",
+    "bytes": 46
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": ".gitignore",
+    "sha256": "b027adcbb6131ef49be335e9a699657351ca3d5bb2b474379634d1714f5a585b",
+    "bytes": 68
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": ".prettierrc",
+    "sha256": "af858765de11954366be23467b95bae5e1a86818411c6723df7542cea9ffd521",
+    "bytes": 48
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "CHANGELOG.md",
+    "sha256": "5e1dd12841aa981ae865d22c13923365b77e262978087ee401137c7eb5506b6c",
+    "bytes": 89
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "LICENSE",
+    "sha256": "1d7dbdbcd4fe14dfa08334fab20bffad23c1290f195792a3a4420dadf9912f81",
+    "bytes": 1087
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "README.md",
+    "sha256": "ba205136a6b814b10b7790b376e0dc436a8db42eb1a0cec4668145272f8390bb",
+    "bytes": 1324
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "assets/hashrate-no.png",
+    "sha256": "e20c76cba5a9ace3c952cc342da8d3ec177e9a8c073804700b240e5a31ac1bd2",
+    "bytes": 14134
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "metadata/hashrate-no-1.png",
+    "sha256": "8980e8185a9fc09851e9dab9025dafc35ce1caae8b3d1e63219f7abcbcdb770f",
+    "bytes": 1314671
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "metadata/hashrate-no-2.png",
+    "sha256": "8d16ed47cc8fdde0a7daf8d65c88cb957871a9520e4b5c9512a918231bbf6d65",
+    "bytes": 1337344
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "metadata/hashrate-no-3.png",
+    "sha256": "e0da517e9872f2c4cdc20664302c9a2d04157cfafebf4c8254ded10e95b66b2a",
+    "bytes": 1279970
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "metadata/hashrate-no-4.png",
+    "sha256": "876fb9a38fdacb7bbbd4c1b6b9a8b05a544104ca8d3a5e116bdcc1f5667a98fd",
+    "bytes": 1348413
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "package-lock.json",
+    "sha256": "84219371d39f9ea5975c1faa9801e7e43fb49d35dc340648748512e0b48214e8",
+    "bytes": 70942
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "package.json",
+    "sha256": "aaba7bfb6ea681cd198c6dcb21fdf8b05cab34716b8944ce6bfa3a87f630fb9a",
+    "bytes": 2112
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "raycast-env.d.ts",
+    "sha256": "c94dba14843484dc3801cc6ac9e6d31109f1a5af7fd54bfbb44acf9e8218286e",
+    "bytes": 972
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "src/coins.tsx",
+    "sha256": "7a202af8e2b209a0635f8dd208e771e5d7a2788f52941b6100826448ad38ddd6",
+    "bytes": 4505
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "src/gpu_estimates.tsx",
+    "sha256": "a4023a0dbf82263419471b98434cfd7f3db8cceede023dc187d5f307f23be251",
+    "bytes": 4824
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "src/types.ts",
+    "sha256": "99788e19fd993a65439de98cefa74a6042623c0c70da50294d90abab8c6fcf6d",
+    "bytes": 1243
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "src/useHashrate.ts",
+    "sha256": "6c8b9892d6eec1b8f4ce67e787ce7840e883c7c920aa6d98223e72a4bf0468f6",
+    "bytes": 1108
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "test/smoke.test.ts",
+    "sha256": "022f56e59394496c0168c4823449d136f1c32bcb5fef6d114ed1edfd03cc35cd",
+    "bytes": 453
+  },
+  {
+    "kind": "v1",
+    "commit": "48f081909c2b07ab791af1949ad38325c0d1fe6c",
+    "path": "tsconfig.json",
+    "sha256": "bb151e8c2e5442f6f9e42b27c08d88b0f7d2c5c127268ce0aedab2ef964b1eee",
+    "bytes": 525
+  },
+  {
+    "kind": "icon-upstream",
+    "url": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/hashrate-no/assets/hashrate-no.png",
+    "sha256": "e20c76cba5a9ace3c952cc342da8d3ec177e9a8c073804700b240e5a31ac1bd2",
+    "bytes": 14134
+  },
+  {
+    "kind": "locked-utils",
+    "path": "@raycast/utils/dist/module.js.map",
+    "sha256": "fd9e5e0352c558ca7cf2dec038136cad24c6a4f735994fa596bfcd294bf15214",
+    "bytes": 347250
+  }
+]

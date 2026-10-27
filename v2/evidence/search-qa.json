@@ -1,0 +1,18 @@
+{
+  "prefix": "ax-f993a25238cf",
+  "initialCodeFilesIndexed": 6,
+  "initialGeneration": 1,
+  "finalExit": 1,
+  "finalLogSha256": "7a1649ad378880e76febce7c4265322fe8fb46202481b8a8a70447f3685be0df",
+  "finalTail": [
+    "autoindex: ignore rules: skipped 4 files and pruned 4 directories (contents never walked, so not counted); 3 ignore files read",
+    "autoindex: ignore rules:   hidden:dotfile \u2014 4 files, 2 directories pruned",
+    "autoindex: ignore rules:   v2/.gitignore:dist/ \u2014 1 directory pruned",
+    "autoindex: ignore rules:   v2/.gitignore:target/ \u2014 1 directory pruned",
+    "xerj-progress phase=hash basis=bytes pct=0.0 items=0/394 bytes=0/7443906 rate=unknown eta_s=unknown eta_quality=unknown since_progress_s=0.0 phase_elapsed_s=0.0 elapsed_s=0.0",
+    "xerj-progress phase=scan basis=bytes pct=0.0 items=0/194 bytes=0/6153925 rate=unknown eta_s=unknown eta_quality=unknown since_progress_s=0.0 phase_elapsed_s=0.0 elapsed_s=0.0",
+    "xerj-done ok=false exit=1 reason=aborted wall=0.3s",
+    "error: project new file v2/Cargo.toml: no frozen dataset accepts family docs, group None, and fields [\"end_line\", \"start_line\", \"text\"]; this requires unsupported dataset/schema evolution (use a new prefix)"
+  ],
+  "fallback": "Git object reads, full source reads, exhaustive rg, independent hashes"
+}
